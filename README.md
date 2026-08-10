@@ -16,3 +16,12 @@ Explorar, de forma prática, os principais tipos de `display` e seus casos de us
 | `flex` | Facilita a criação de layouts unidimensionais, organizando elementos em linhas ou colunas. |
 | `grid` | Permite criar layouts bidimensionais usando linhas e colunas. |
 | `none` | Remove o elemento do fluxo da página. |
+
+## Sobre o projeto
+
+Este projeto fazparte dos meus estudos de HTML e CSS, com foco em compreender, na prática, com diferentes valores
+da propriedade display influenciam o layout e o comportamento dos elementos.
+
+```bash
+git clone https://github.com/pedro-negri/display.git
+
