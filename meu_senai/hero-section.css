@@ -1,0 +1,60 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizar a TAG Body */
+body{
+    background-color: lightgrey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-header{
+    width: 100%;
+    height: 33%;
+    background-color:blue;
+    display: flex;
+    /* alinhar na vertical (y) */
+    align-items: center;
+    /* alinhar na horizontal (x) */
+    justify-content:  center;
+
+}
+
+/* Estilizar um elemento através da classe */
+
+.banner-header{
+    width: 90%;
+    height: 75%;
+    background-color: lightblue
+}
+
+.hero-content{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 66%;
+    padding: 20px;
+}
+
+.hero-content--left{
+    width: 26%;
+    height: 80%;
+    background-color: lightblue;
+    padding: 20;
+}
+
+.hero-content--center{
+    width: 26%;
+    height: 80%;
+    background-color: lightblue;
+}
+.hero-content--rigth{
+    width: 26%;
+    height: 80%;
+    background-color: lightblue;
+}
