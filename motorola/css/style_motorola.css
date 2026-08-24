@@ -5,6 +5,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    color:blue
+.main-bateria{
+    display: flex;
+    width: 1600px;
+    height: 800px;
+    border: 2px solid;
+
+}
+
+.main-bateria__left{
+    display: flex;
+    width: 600px;
+    height: 797px;
+
+}
+
+.main-bateria__foto img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-bateria__rigth{
+    display: flex;
+    width: 1150px;
+    height: 797px;
+    border: 2px solid;    
+
+}
+.main-bateria__titulo{
+    width: 100%;
+    height: 33%;
+    font-family: Helvetica;
+    font-size:x-large;
+    /* justify-items: center; */
+    justify-content: flex-start;  
+    border: 2px solid;
+}
+
+.main-bateria__sec1{
+    width: 100%;
+    height: 335;
 }
