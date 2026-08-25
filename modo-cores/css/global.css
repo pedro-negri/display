@@ -1,0 +1,60 @@
+@import url(./reset.css);
+@import url(./design-system.css);
+
+.color-section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.color-section__sidebar{
+
+}
+
+.color-section__title{
+
+}
+
+.color-section__menu{
+
+}
+
+.color-section__link{
+
+}
+
+.color-section__link--active{
+
+}
+
+.color-section__link--active:hover{
+
+}
+
+.color-section__bar--rgb-1{
+    width: 15%;
+    background-color: #FF0000;
+}
+
+.color-section__bar--rgb-2{
+    width: 15%;
+    background-color: #00FF00;
+}
+
+.color-section__bar--rgb-3{
+    width: 15%;
+    background-color: #0000FF;
+}
+
+.color-section__bar--rgb-4{
+    width: 15%;
+    background-color: #FFFF00;
+}
+
+.color-section__bar--rgb-5{
+    width: 15%;
+    background-color: #00FFFF;
+}
+
+.color-section__bar--rgb-6{}
+
