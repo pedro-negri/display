@@ -56,5 +56,8 @@
     background-color: #00FFFF;
 }
 
-.color-section__bar--rgb-6{}
+.color-section__bar--rgb-6{
+    width: 15%;
+    background-color: #FF00FF;
+}
 
