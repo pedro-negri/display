@@ -8,8 +8,15 @@
     
     
 }   
+
+:root{
+    --bg-color-container: lightskyblue;
+    --banana: azure;
+    --fonte-padrao: Arial;
+}
+
 .container{
-    background-color: lightskyblue;
+    background-color: var(--bg-color-container);
     width: 300px;
     height: 300px;
     font-family: 'Courier New', Courier, monospace;
@@ -18,7 +25,7 @@
 
 .body-container{
     font-family: Verdana, sans-serif;
-    background-color: azure;
+    background-color: var(--banana);
 
 }
 
