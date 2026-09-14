@@ -69,13 +69,13 @@
     align-self: flex-start;
     padding: 10px 20px;
     background-color: transparent;
-    border: 1px solid #777;
+    border: 1px solid var(--border-button);
     border-radius: 30px;
-    color: #333;
+    color: var(--color-button_escrita);
     cursor: pointer;
 }
 
 .brand-card__button:hover{
-    background-color: #555;
+    background-color: var(--background-button_hover);
     color: white;
 }

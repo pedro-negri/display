@@ -1,5 +1,8 @@
 :root{
     --background-card: #a1a1a1;
     --color-description: #555;
+    --border-button: #777;
+    --background-button_hover: #555;
+    --color-button_escrita: #333;
     
 }
