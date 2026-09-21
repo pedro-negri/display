@@ -102,7 +102,25 @@
     /* espaço entre linhas */
     line-height: 30px;
 }
+.sumario details{
+    border: 2px solid;
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
 
+.sumario summary{
+    background-color: #3e077c;
+    color: #fff;
+    width: 50%;
+}
+
+.sumario p{
+    color: aqua;
+    background-color: black;
+    line-height: 20px;
+}
 /* Display none: não aparece na tela
 Display inline: elementos são em linhas 
 não aceito largura e altura(ocupa apenas o seu espaço)
