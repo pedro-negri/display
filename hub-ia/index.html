@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub-ia</title>
+    <link rel="stylesheet" href="">
+    
+    <style>
+        /* estilo base */
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Base style for mobile devices */
+        body {
+            padding: 20px;
+            background-color: olive;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container{
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            height: 200px;
+            flex-wrap: wrap;
+
+        }
+
+        .box{
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+        /* For devices with a minimum width of 768px (Medium) */
+        @media (min-width: 768px) {
+            body {
+                background-color: blue;
+                color: white;
+            }
+            
+        }
+
+        /* For devices with a minimum width of 992px (Large) */
+        @media (min-width: 992px) {
+            body {
+                background-color: tan;
+                color: black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<h1>Este é um teste de @media.</h1>
+<div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+
+</html>
