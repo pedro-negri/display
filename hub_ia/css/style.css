@@ -1,0 +1,35 @@
+@import './variables.css';
+@import url('./reset.css');
+
+.header{
+
+}
+
+.header__brand{
+
+}
+
+.header__title{
+
+}
+
+.nav{
+
+}
+
+.nav_list{
+
+}
+
+.nav__item{
+
+}
+
+.nav__link{
+
+}
+
+.nav__link :hover,
+.nav__link :focus{
+
+}
